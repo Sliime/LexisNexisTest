@@ -375,3 +375,16 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1604620454229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GUILHE~1\\AppData\\Local\\Temp\\rust_mozprofileV3g2LV"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604620458351	Marionette	INFO	Listening on port 53671
+1604620458484	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604620463615	Marionette	INFO	Stopped listening on port 53671
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
