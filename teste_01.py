@@ -12,7 +12,7 @@ getting_Starting.click()
 
 find_title_Text = driver.find_element_by_xpath('//*[@id="getting-started"]/h1')
 
-print("O Titulo da pagina é " + find_title_Text.text)
+print("O Titulo da pagina é  " + find_title_Text.text)
 
 originalText = find_title_Text.text #Pega o texto original da pagina
 setText = set(originalText) #Pega o conjunto de caracteres com set, set não permite que o conjunto tenha caracteres iguais 
